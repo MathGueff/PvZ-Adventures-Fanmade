@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c204d8f424aad84cbb00b903b369b60, type: 3}
+  m_Name: DOIDONAAAA
+  m_EditorClassIdentifier: 
+  sunAmountStart: 20000
+  numberOfPots: 1
+  zombiePrefabs: {fileID: 11400000, guid: be38c85622eac6648895c728ade4b041, type: 2}
+  regularSpawns:
+  - zombie: 0
+    zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+    spawnTime: 30
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 0
+    zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+    spawnTime: 55
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 1
+    zombiePrefab: {fileID: 6313350428137866970, guid: b81693deb334a7c46afd1004f388444c, type: 3}
+    spawnTime: 70
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 1
+    zombiePrefab: {fileID: 6313350428137866970, guid: b81693deb334a7c46afd1004f388444c, type: 3}
+    spawnTime: 95
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 3
+    zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+    spawnTime: 125
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 3
+    zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+    spawnTime: 135
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 150
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 150
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 150
+    spawnAtSameGravestone: 1
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 155
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 3
+    zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+    spawnTime: 160
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 5
+    zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+    spawnTime: 200
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 3
+    zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+    spawnTime: 240
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 250
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 252
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 1
+    zombiePrefab: {fileID: 6313350428137866970, guid: b81693deb334a7c46afd1004f388444c, type: 3}
+    spawnTime: 255
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+    spawnTime: 255
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+    spawnTime: 270
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 5
+    zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+    spawnTime: 300
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 3
+    zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+    spawnTime: 320
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 2
+    zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+    spawnTime: 330
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  waves:
+  - zombiesInHorde:
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 0
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 2
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 4
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 6
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 8
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 9
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 10
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 20
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 25
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 1
+      zombiePrefab: {fileID: 6313350428137866970, guid: b81693deb334a7c46afd1004f388444c, type: 3}
+      spawnTime: 40
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 50
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 52
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 55
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 60
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 65
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 70
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    hordeTime: 110
+  - zombiesInHorde:
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 4
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 8
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 12
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 14
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 14
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 14
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 14
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 14
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 15
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 4
+      zombiePrefab: {fileID: 137084856274866068, guid: 9aa82d80ce3e7f84c8247462aa0c91db, type: 3}
+      spawnTime: 15
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 16
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    hordeTime: 220
+  - zombiesInHorde:
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 2
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 3
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 4
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 5
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 6
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 7
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 0
+      zombiePrefab: {fileID: 2513731710447201307, guid: 05613e70acb77a942bf20f60d6fc973c, type: 3}
+      spawnTime: 8
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 12
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombiePrefab: {fileID: 1959255191306660750, guid: 0206d0ec0dec3914c8a2e2141092d9b9, type: 3}
+      spawnTime: 20
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 2
+      zombiePrefab: {fileID: 6505212437658256664, guid: 3648baf4afd204343a8f97f8c23536cc, type: 3}
+      spawnTime: 24
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 1
+      zombiePrefab: {fileID: 6313350428137866970, guid: b81693deb334a7c46afd1004f388444c, type: 3}
+      spawnTime: 30
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 45
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 1
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 50
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    - zombie: 3
+      zombiePrefab: {fileID: 6440712900883999009, guid: b5316779dacb1a34d91124ee52819567, type: 3}
+      spawnTime: 55
+      spawnAtSameGravestone: 1
+      spawnAtDiffGravestone: 0
+    hordeTime: 300

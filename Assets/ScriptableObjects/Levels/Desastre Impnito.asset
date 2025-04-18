@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c204d8f424aad84cbb00b903b369b60, type: 3}
+  m_Name: Desastre Impnito
+  m_EditorClassIdentifier: 
+  sunAmountStart: 150
+  numberOfPots: 4
+  insolationChance: 0
+  zombieScriptables: {fileID: 11400000, guid: be38c85622eac6648895c728ade4b041, type: 2}
+  regularSpawns:
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 10
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 12
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 18
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 24
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 25
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 26
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 38
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 5
+    zombieScriptable: {fileID: 0}
+    spawnTime: 60
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 60
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 65
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 66
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 68
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 70
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 70
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 76
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 76
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 77
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 77
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 78
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 78
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 79
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 79
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 5
+    zombieScriptable: {fileID: 0}
+    spawnTime: 90
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 5
+    zombieScriptable: {fileID: 0}
+    spawnTime: 90
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 1
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 100
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 4
+    zombieScriptable: {fileID: 0}
+    spawnTime: 101
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  - zombie: 0
+    zombieScriptable: {fileID: 0}
+    spawnTime: 105
+    spawnAtSameGravestone: 0
+    spawnAtDiffGravestone: 0
+  waves:
+  - zombiesInHorde:
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 10
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 20
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 25
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 30
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 40
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 45
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 50
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    - zombie: 5
+      zombieScriptable: {fileID: 0}
+      spawnTime: 60
+      spawnAtSameGravestone: 0
+      spawnAtDiffGravestone: 0
+    hordeTime: 110

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1820be9f0ed5e174199d1974b01bf2ae, type: 3}
+  m_Name: IceLettuce
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  defense: 0
+  timeToRevive: 0
+  sunCustToRevive: 0
+  canRecover: 0
+  actionInterval: 0
+  plantDamage: 0
+  typeOfAttack: 2
+  dettectRange: {x: 5, y: 5}
+  damageType: 2
+  boostsDuration: 5
+  boostsScriptables: []
+  custToBoost: 25
+  plantPrefab: {fileID: 5884143232393001429, guid: e37440bfc3f9ebc4cb5dfa5a71a4c52e, type: 3}
+  plantPreviewPrefab: {fileID: 260606777984008569, guid: ce793d5bcb50e6b4fbdc1dbd967c5e5a, type: 3}
+  plantSprite: {fileID: 21300000, guid: db7b27af725439a4a8c636ab2dcec233, type: 3}
+  plantName: IceLettuce
+  plantType: 1
+  plantSeedCooldown: 15
+  plantSeedQuantity: 5
+  plantSunCust: 0
+  rangeColor: {r: 0, g: 1, b: 0.90713024, a: 0.1764706}

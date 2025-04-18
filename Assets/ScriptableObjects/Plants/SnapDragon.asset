@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1820be9f0ed5e174199d1974b01bf2ae, type: 3}
+  m_Name: SnapDragon
+  m_EditorClassIdentifier: 
+  maxHealth: 40
+  timeToRevive: 15
+  sunCustToRevive: 25
+  canRecover: 1
+  actionInterval: 1.25
+  plantDamage: 15
+  typeOfAttack: 3
+  dettectRange: {x: 3, y: 3}
+  damageType: 1
+  boostsDuration: 5
+  boostsScriptables:
+  - {fileID: 11400000, guid: 1096320d16baa324d9081c1519032f2e, type: 2}
+  custToBoost: 25
+  plantPrefab: {fileID: 2469063862708266942, guid: 8739af7e227c705409d9e661f9fe483b, type: 3}
+  plantPreviewPrefab: {fileID: 1166685447542441757, guid: ee25a162e1b85de41ba58f0958e20bab, type: 3}
+  plantSprite: {fileID: 21300000, guid: e8dcee3dcdea9ea4ba678a7fbd50686f, type: 3}
+  plantName: SnapDragon
+  plantType: 0
+  plantSeedCooldown: 10
+  plantSeedQuantity: 5
+  plantSunCust: 125
+  rangeColor: {r: 1, g: 0.897468, b: 0.0039215684, a: 0.2}

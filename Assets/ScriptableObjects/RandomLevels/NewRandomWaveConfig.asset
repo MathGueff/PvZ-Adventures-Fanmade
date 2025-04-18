@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e38ca11b0e40a4bb2f8607f833078d, type: 3}
+  m_Name: NewRandomWaveConfig
+  m_EditorClassIdentifier: 
+  minGameDuration: 180
+  maxGameDuration: 300
+  minWaves: 3
+  maxWaves: 8
+  minTimeBetweenWaves: 15
+  maxTimeBetweenWaves: 45
+  minZombiesPerWave: 5
+  maxZombiesPerWave: 20
+  minSpawnInterval: 0.5
+  maxSpawnInterval: 3
+  zombieScriptables: {fileID: 11400000, guid: be38c85622eac6648895c728ade4b041, type: 2}
+  availableZombieTypes: 
+  zombieDifficultyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  chanceSameGravestone: 0.655
+  chanceDiffGravestone: 0.3

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c39f69d4e70889b448649d10262cffb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - zombieScriptable: {instanceID: 0}
+  - zombieAttackHandler: {instanceID: 0}
+  - zombieMovHand: {instanceID: 0}
+  - zombieEffects: {instanceID: 0}
+  - zombieLifeHandler: {instanceID: 0}
+  - anim: {instanceID: 0}
+  - boxCollider: {instanceID: 0}
+  - spriteRenderer: {instanceID: 0}
+  - deathSound: {fileID: 8300000, guid: ffe99bd445f035947897a8729cfa09b2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

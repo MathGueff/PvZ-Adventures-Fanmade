@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: ca6d2a162e475eb409221cbebe62fe46
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - zombieEatingSound: {fileID: 8300000, guid: 82739518e5fa08d4cbedf43fa648902b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

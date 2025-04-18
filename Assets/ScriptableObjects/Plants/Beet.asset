@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1820be9f0ed5e174199d1974b01bf2ae, type: 3}
+  m_Name: Beet
+  m_EditorClassIdentifier: 
+  maxHealth: 80
+  timeToRevive: 15
+  sunCustToRevive: 25
+  canRecover: 1
+  actionInterval: 1
+  plantDamage: 35
+  typeOfAttack: 3
+  dettectRange: {x: 3, y: 3}
+  damageType: 0
+  boostsDuration: 5
+  boostsScriptables:
+  - {fileID: 11400000, guid: 33ff0c60f000f524eabf31cf1ec9a4b1, type: 2}
+  custToBoost: 25
+  plantPrefab: {fileID: 7862054079232382106, guid: cc762b0e844ff4646aeea1a4cb5ee1c4, type: 3}
+  plantPreviewPrefab: {fileID: 6625559272437927405, guid: c7959d9843d90d1419f18f8fc9c766ef, type: 3}
+  plantSprite: {fileID: 21300000, guid: ff15ae432f9d25e4c8a75830f1602605, type: 3}
+  plantName: Beet
+  plantType: 0
+  plantSeedCooldown: 0
+  plantSeedQuantity: 50
+  plantSunCust: 100
+  rangeColor: {r: 0.8309381, g: 0, b: 0.9716981, a: 0.19607843}

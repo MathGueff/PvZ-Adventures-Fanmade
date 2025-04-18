@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Zombie
+  - Plant
+  - ZombieHeadUI
+  - SunAmountUI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Zombie
+  - LawnPlant
+  - RecoveringPlant
+  - PathPlant
+  - PlantPreview
+  - NoCollisionPlant
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1192552969
+    locked: 0
+  - name: Objects
+    uniqueID: 2135587445
+    locked: 0
+  - name: GroundPlants
+    uniqueID: 3423589887
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Plants
+    uniqueID: 207477449
+    locked: 0
+  - name: Zombies
+    uniqueID: 3345524099
+    locked: 0
+  - name: Armor
+    uniqueID: 3605332979
+    locked: 0
+  - name: Suns
+    uniqueID: 2565352267
+    locked: 0
+  - name: Projectile
+    uniqueID: 2963984623
+    locked: 0
+  - name: Effects
+    uniqueID: 3918935465
+    locked: 0

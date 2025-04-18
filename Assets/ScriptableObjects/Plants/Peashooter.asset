@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1820be9f0ed5e174199d1974b01bf2ae, type: 3}
+  m_Name: Peashooter
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  timeToRevive: 15
+  sunCustToRevive: 25
+  canRecover: 1
+  actionInterval: 1.5
+  plantDamage: 20
+  typeOfAttack: 3
+  dettectRange: {x: 5, y: 5}
+  damageType: 0
+  boostsDuration: 5
+  boostsScriptables:
+  - {fileID: 11400000, guid: 0ea410a51d6849345be0ae5a2148191e, type: 2}
+  - {fileID: 11400000, guid: d62e0c961b8a89b4c9ba9777d959d3ca, type: 2}
+  custToBoost: 25
+  plantPrefab: {fileID: 4387837068766753537, guid: 32a6478e79e3dd047bc39246eb66c7f0, type: 3}
+  plantPreviewPrefab: {fileID: 7182499592674099088, guid: cd7af42ebaa211146bfc4f315d1cde46, type: 3}
+  plantSprite: {fileID: 21300000, guid: 0128d50db21e0e84d93483fbf8827fda, type: 3}
+  plantName: Peashooter
+  plantType: 0
+  plantSeedCooldown: 10
+  plantSeedQuantity: 5
+  plantSunCust: 100
+  rangeColor: {r: 0.31764707, g: 0.9529412, b: 0, a: 0.19607843}
