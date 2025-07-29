@@ -1,6 +1,6 @@
 # PvZ Adventures Fanmade
 
-Fanmake do jogo Plants vs Zombies Adventures (anteriormente disponível no Facebook), desenvolvido em estilo pixel art na Unity, utilizando C#.
+Fanmade do jogo Plants vs Zombies Adventures (anteriormente disponível no Facebook), desenvolvido em estilo pixel art na Unity, utilizando C#.
 
 ## Jogo como objeto de estudo
 
